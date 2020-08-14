@@ -65,10 +65,17 @@
 <footer>
     <h2>Ready to try it out?</h2>
     <p>
-        <a href="#" title="This page is actually just a mockup. ;)">Get Started</a>
+        <a class="dummy" target="_self" onclick="return dummy();" href="#" title="This page is actually just a mockup. ; this.pointerEvents =)">Get Started</a>
         <!-- https://github.com/wpengine/headless-docs/tree/master/guides/getting-started#supported-apps -->
     </p>
 </footer>
 </body>
+
+<script type="text/javascript">
+    function dummy () {
+        alert("I'm just a mockup! 😉");
+        return false;
+    }
+</script>
 
 </html>
