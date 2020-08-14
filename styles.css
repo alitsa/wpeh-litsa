@@ -1,5 +1,5 @@
 html, body {margin: 0; padding: 0; color: #002838; font-family: 'open sans', sans-serif;}
-header {color: #fff; background: #002838 url('background.jpg') no-repeat bottom right; padding: 4em 2em; background-size: auto 100%;}
+header {color: #fff; background: #002838 url('background.jpg') no-repeat bottom right; padding: 7em 2em 4em; background-size: auto 100%;}
 footer {color: #fff; background-color: #002838; padding: 4em 2em;}
 footer h2 {margin-bottom: 2em;}
 h3 {margin-top: 3em;}
@@ -7,6 +7,14 @@ h3 {margin-top: 3em;}
 article {padding: 1em 2em 2em; background-color: #F4F7FA;}
 .columns {display: flex;}
 .columns section {width: 50%;}
-img {max-width: 100%; box-shadow: 2pt 2pt 1em rgba(0,40,56,.2);}
+figure img {max-width: 100%; box-shadow: 2pt 2pt 1em rgba(0,40,56,.2);}
 a, a:link, a:visited {color: #ff6c29;}
 footer a, footer a:link, footer a:visited {display: inline-block; padding: 1em 2em; background-color: #ff6c29; color: #fff; text-decoration: none;  text-transform: uppercase; font-weight: bold;}
+
+nav {background:linear-gradient(180deg,rgba(0,40,56,.9) 0,rgba(0,40,56,.4)); position: fixed; width: 100%; font-size: 18px;}
+nav ul {list-style-type: none; margin: 0; padding: 0; display: flex; width: 60%; align-items: center;}
+nav li {padding: 1em .8em;}
+nav img {width: 39.8594px; margin: 0 .5em;}
+nav a, nav a:link, nav a:visited {color: #ffffff; text-decoration: none; padding-bottom: 1pt; border-color: transparent;}
+nav a:hover {border-bottom: 4pt solid #0ECAD4;}
+nav a {transition: border-color 1s;}
