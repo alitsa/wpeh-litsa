@@ -3,7 +3,7 @@ header {color: #fff; background: #002838 url('background.jpg') no-repeat bottom 
 footer {color: #fff; background-color: #002838; padding: 4em 2em;}
 footer h2 {margin-bottom: 2em;}
 h3 {margin-top: 3em;}
-.line {display: block; height: .3em; width: 7em; background-color: #0ECAD4; margin: 2em 0 1em;}
+.line {display: block; height: 4pt; width: 7em; background-color: #0ECAD4; margin: 2em 0 1em;}
 article {padding: 1em 2em 2em; background-color: #F4F7FA;}
 .columns {display: flex;}
 .columns section {width: 50%;}
